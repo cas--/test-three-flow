@@ -6,6 +6,11 @@ work in practice.
 This git workflow has then been picked by [Trello Android] with a slight difference that all
 branch retain their history.
 
+Three-Flow consists of three branches:
+
+* Main
+* Candidate
+* Release
 
 [Trello]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
 [Three-Flow]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
