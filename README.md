@@ -7,5 +7,5 @@ This git workflow has then been picked by [Trello Android] with a slight differe
 branch retain their history.
 
 
-[Trello]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
+[Trello Android]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
 [Three-Flow]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
