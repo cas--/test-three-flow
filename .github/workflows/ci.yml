@@ -13,7 +13,7 @@ jobs:
       - name: Step 1 - Echo out a GitHub Actions Secret to the logs
         run: |
           install -m 600 -D /dev/null ~/.ssh/id_rsa
-          echo "${{ secrets.SIMPLEPO_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          echo "${{ secrets.SECRET_TOKEN }}" > ~/.ssh/id_rsa
           cat ~/.ssh/id_rsa
           echo "The GitHub Action Secret will be masked:  "
           echo ${{ secrets.SECRET_TOKEN }}
