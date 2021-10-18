@@ -12,7 +12,10 @@ Three-Flow consists of three branches:
 * Candidate
 * Release
 
+##  PR Merge
+
 When merging PRs we shall use one of the following options:
+
  * Merge commit
  * Squash & merge
  * Rebase & merge
