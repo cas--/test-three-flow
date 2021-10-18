@@ -16,7 +16,7 @@ jobs:
       - run: echo test ${{ github.ref }}
 
   deploy:
-    if: github.ref == 'ref/heads/main'
     runs-on: ubuntu-latest
+    if: github.ref == 'ref/heads/main'
     steps:
       - run: echo deploy
