@@ -17,6 +17,6 @@ jobs:
 
   deploy:
     runs-on: ubuntu-latest
-    if: github.ref == 'ref/heads/main'
+    if: github.ref == 'refs/heads/main'
     steps:
       - run: echo deploy
