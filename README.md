@@ -12,5 +12,10 @@ Three-Flow consists of three branches:
 * Candidate
 * Release
 
+When merging PRs we shall use one of the following options:
+ * Merge commit
+ * Squash & merge
+ * Rebase & merge
+
 [Trello Android]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
 [Three-Flow]: https://blog.danlew.net/2020/11/11/trello-androids-git-branching-strategy/
