@@ -20,4 +20,4 @@ jobs:
     needs: [test]
     runs-on: ubuntu-latest
     steps:
-        - run: echo deploy
+      - run: echo deploy
