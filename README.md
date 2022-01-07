@@ -6,11 +6,12 @@ work in practice.
 This git workflow has then been picked by [Trello Android] with a slight difference that all
 branch retain their history.
 
-Three-Flow consists of three branches:
+Three-Flow consists of four? branches:
 
 * Main
 * Candidate
 * Release
+* Staging
 
 And a third env staging branch?
 
