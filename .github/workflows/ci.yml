@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo test ${{ github.ref }}
+
+  deploy:
+    if: github.ref == 'ref/head/main'
+    runs-on: ubuntu-latest
+    steps:
+        - run: echo deploy
