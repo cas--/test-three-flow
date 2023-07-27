@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: Create artifact
         run: |
-            echo 'test text' > text.txt
+            echo 'test text' > text.txt &&
             zip -r test.zip test.txt
       - name: Create Release Tag
         id: create-release-tag
