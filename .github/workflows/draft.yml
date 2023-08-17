@@ -1,0 +1,13 @@
+name: 'draft release'
+on:
+  push:
+    branches:
+      - main
+jobs:
+  bump:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Release
+        uses: darioblanco/release-wizard@v2
+        with:
+          token: ${{ github.token }}
